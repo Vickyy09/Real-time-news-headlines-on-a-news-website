@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+button {
+  padding: 10px 20px; 
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+/* Style for button on hover */
+button:hover {
+  background-color: #0056b3; 
+}
+
+
+.headlines-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.headlines-list li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.headlines-list strong {
+  font-size: 18px;
+}
+
+.headlines-list p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.App-footer {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.news-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.news-image {
+  width: 150px; 
+  height: auto; 
+  margin-right: 20px; 
+   
+}
+.news-content {
+  width: calc(100% - 170px); 
+}
+
+ 
+.separator {
+   margin: 10px 0; 
+   border: 1px solid #ccc; 
+  }
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+  }
+  
